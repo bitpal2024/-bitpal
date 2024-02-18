@@ -52,7 +52,7 @@
     border-right: 0 solid white;
 }
 ::-webkit-scrollbar-thumb {
-    background: #d43030;
+    background: #ff8c00;
     width: 0;
     height: 25%;
     transition: .5s ease;
@@ -1160,7 +1160,7 @@ section{padding: 4rem 0;}
 }
 
 .owl-testimonial .owl-dots .owl-dot.active span, .owl-testimonial .owl-dots .owl-dot:hover span{
-    background: #d43030;
+    background: #ff8c00;
 }
 
 .owl-testimonial .owl-dots{
@@ -1373,7 +1373,7 @@ section{padding: 4rem 0;}
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: #202020;
+    background: #000000;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: 0.5s;
@@ -1383,7 +1383,7 @@ section{padding: 4rem 0;}
 }
 
 .go-top:hover, .go-top:focus {
-    color: #ffffff;
+    color: #ff8c00;
 }
 
 .go-top:hover::before, .go-top:focus::before {
