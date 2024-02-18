@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="US-ENG">
+<head>
+    <!-- Meta Tags -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Author -->
+    <meta name="author" content="Bitpal Blockchain Labs ">
+    <!-- description -->
+    <meta name="description" content="BITPAL FOR PALAPA COMMUNITY">
+    <!-- keywords -->
+    <meta name="keywords" content="BITPAL (BPL), Cryptocurrency, Token, Coin">
+    <!-- Page Title -->
+    <title>BITPAL FOR PALAPA COMMUNITY</title>
+    <!-- Favicon -->
+    <link href="vendor/img/favicon.ico" rel="icon">
+    <!-- Bundle -->
+    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/LineIcons.min.css">
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
+    <!-- Style Sheet -->
+    <link href="creative-designer/css/line-awesome.min.css" rel="stylesheet">
+    <link href="creative-designer/css/style.css" rel="stylesheet">
+    <link href="creative-designer/css/custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a029ca942a.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+    ['Task', 'Hours per Day'],
+      ['Lock Token',     60],
+      ['Community Development',      15],
+      ['Project Ecosystem',  10],
+      ['Liquidty Poll', 5],
+      ['Public Sale',    5],
+      ['Marketing & Airdrop',    3],
+      ['Private Sale',    1],
+      ['Team Developer', 1]
+    ]);
+
+    var options = {
+backgroundColor: { fill:'transparent' },
+legend: {position: 'none'},
+
+      is3D: true,
+ // pieSliceText: 'label',
+  chartArea:{left:50,top:20,width:"100%",height:"100%",pieSliceBorderColor: '#fff'},
+  // pieStartAngle: 90,
+  slices: {
+    0: { color: 'black' },
+              1: { color: '#fea800' },
+              2: { color: '#a761c8' },
+              3: { color: '#ed210d' },
+              4: { color: '#60d837' },
+              5: { color: '#00a1ff' },
+              6: { color: '#ffcff1' },
+              7: { color: '#98ff98' }
+              
+              
+            }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+    chart.draw(data, options);
+  }
+
+  $(window).on("throttledresize", function (event) {
+    var options = {
+        width: '100%',
+        height: '100%'
+    };
+
+    var data = google.visualization.arrayToDataTable([]);
+    drawChart(data, options);
+});
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style media="screen">
+.owl-dots {
+    margin-bottom: 60px;
+}
+</style>
+<link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VX600Q81VK"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VX600Q81VK');
+</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<header>
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+        <div class="container-fluid navbar-left">
+            <a href="#home" title="Logo" class="logo scroll">
+                <!--Logo Default-->
+                <span><img src="creative-designer/images/BPL_Logo-Transparan.png" alt="Logo BITPAL (BPL)"></span>
+            </a>
+        </div>
+
+        <!--Side Menu Button-->
+        <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="topnav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#program">Project</a>
+          <a href="#tokenomics">Tokenomics</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#home"> <div class="flaglang rgh"> <img src="images/united-kingdom.png" alt=""> </div></a>
+          <a href="#home"><div class="flaglang"><img src="" alt=""></div> </a>
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu hidden">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <a href="#home" title="Logo" class="scroll">
+                <!--Logo Default-->
+                <img src="creative-designer/images/BPL_Logo-Transparan.png" alt="logo">
+            </a>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#program">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#tokenomics">Tokenomics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="headflg">
+                        <a href="https://sembakotoken.org"> <div class="flaglang rgh"> <img src="images/united-kingdom.png" alt=""> </div></a>
+                        <a href="https://sembakotoken.org/id/"><div class="flaglang"><img src="images/indonesia.png" alt=""></div> </a>
+                      </div>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-footer w-100">
+              <!-- <ul class="social-icons-simple">
+                 <li><a class="telegram_bg_hvr2" href="https://t.me/+7DWWqtYBubxjMmI9"><i class="fa fa-telegram"></i> </a> </li>
+                 <li><a class="twitter_bg_hvr2" href="https://twitter.com/sembakotoken"><i class="fab fa-twitter"></i> </a> </li>
+              </ul> -->
+                <ul class="social-icons-simple">
+                   <li><a class="telegram_bg_hvr2" href="https://t.me/+7DWWqtYBubxjMmI9"><i class="fa fa-telegram"></i> </a> </li>
+                   <li><a class="twitter_bg_hvr2" href="https://twitter.com/sembakotoken"><i class="fab fa-twitter"></i> </a> </li>
+                   <li><a class="tiktok_bg_hvr2" href="https://www.tiktok.com/@sembakotoken.official"><i class="fab fa-tiktok"></i> </a> </li>
+                   <li><a class="instagram_bg_hvr2" href="https://www.instagram.com/sembakotoken.official/"><i class="fab fa-instagram"></i> </a> </li>
+                   <li><a class="facebook_bg_hvr2" href="https://www.facebook.com/profile.php?id=100087445217401"><i class="fab fa-facebook-f"></i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
+<style media="screen">
+</style>
+</header>
+
+<div class="loader-bg">
+    <div class="svg-loader">
+        <img src="images/binance-preloader.gif" alt="">
+    </div>
+</div>
+
+<section class="section slide1 p-0" id="home">
+    <div class="slider-area" id="slider-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 text-md-center text-lg-left wow fadeInLeft content-margin mainheaad" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="area-heading text-center text-lg-left">
+                        <h1 class="main-font text-white font-weight-bold mb-4 tithead"><span class="d-block text-red">BITPAL FOR US<span></h1>
+                        <h6><span style="color: #ffd700">THE BIG IDEA OF UNITING THE ENTIRE CRYPTOCURRENCY COMMUNITY</span></h6>
+                        <p class="text-white alt-font mb-5">Building Cross-Protocol Ecosystem Integration through the Binance Smart Chain Ecosystem (BEP-20) to support the development of a new Protocol Ecosystem, namely Palapa Chain as a whole by developing the BITPAL community.</p>
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0xD21642383a5cdF8C61FED6121a2084C1658E35B1"  class="btn btn-medium btn-rounded btn-trans-white mb-5 brnbeli" target="_blank">BUY $BPL</a>
+                        <a href="#"  class="btn btn-medium btn-rounded btn-trans-white mb-5" target="_blank">WHITEPAPER EN</a>
+                        <a href="#"  class="btn btn-medium btn-rounded btn-trans-white mb-5" target="_blank">WHITEPAPER ID</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 image-order wow fadeInRight mainheaad" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="slider-image">
+                        <img src="images/image1.png" alt="Slider-Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class=" col-sm-12 col-md-6 img-sec mt-5 mt-md-0 wow fadeIn order-2 order-md-1" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="red_rectangle"></div>
+                <div class="about_img position-relative">
+                    <img class="imgcoin" src="images/image2.png" alt="About Image">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 pl-md-5 wow fadeInRight order-1 order-md-1" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="about-heading">
+                    <h1 class="heading margin_heading main-font">ABOUT BITPAL </h1>
+                    <p class="info">BITPAL is a cryptocurrency Community development innovation to unite Cryptocurrency Community entities that are spread across various community models by making PALAPA CHAIN ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ as a unifying vehicle</p>
+                    <p class="info my-4">Through the development of the Palapa Chain ecosystem, BITPAL is here to bridge the BNB Smart Chain-based community to be able to work together to develop a wider ecosystem together with the Palapa Chain Ecosystem.</p>
+                    <p class="info my-4">BITPAL is a bridge to facilitate various needs of the Binance Smartchain-based community to be able to expand relationships between community activists across blockchain technology and become a solution for creating an even larger Cryptocurrency ecosystem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tekno" id="teknologi">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">OUR TECHNOLOGY</h4><br>
+                    <p>BITPAL (BPL) creates an ecosystem that can connect various Communities from various Blockchain Protocols to support each other in developing a wider Cryptocurrency Community through decentralized interactions in solving real world problems using Blockchain technology.</p>
+                      <p>BITPAL (BPL) builds smart contracts on Binance Smart Chain (BSC) technology, where Binance Smart Chain (BSC) is considered one of the best Blockchain networks that is smarter and more reliable when compared to other decentralized Blockchain networks. Binance Smart Chain (BSC) is considered to be one of the advanced Blockchain networks with a robust architecture and high-end security features.</p>
+                    <div class="kntnmstr">
+                      <img class="imgkntn" src="images/blockchain.png" alt="">
+                      <img class="imgkntn icokcl" src="images/bnb-smartchain-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-12 col-md-12">
+              <h2 class="heading main-font my-4">BPL Smart Contract Features</h2>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area">
+                    <ul class="sctr">
+                      <li><span class="nmbrlist">1</span> BEP20 Native Token</li>
+                      <li><span class="nmbrlist">2</span> Antidump</li>
+                      <li><span class="nmbrlist">3</span> Antiwhale</li>
+                      <li><span class="nmbrlist">4</span> No Tax Transaction</li>
+                      <li><span class="nmbrlist">5</span> No Hidden Fee</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area row2">
+                    <ol class="sctr" start="6">
+                      <li><span class="nmbrlist">6</span> Max supply has been determined </li>
+                      <li><span class="nmbrlist">7</span> Mint & Burn to Balancing Supply</li>
+                      <li><span class="nmbrlist">8</span> Proof of Increases in the future </li>
+                      <li><span class="nmbrlist">9</span> Transfer Ownership</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area tecnoimg">
+                    <img src="images/tecnoimg.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-12">
+                <div class="clients-area btnact">
+                  <a href="https://bscscan.com/token/0xD21642383a5cdF8C61FED6121a2084C1658E35B1" target="_blank"><button type="button" class="btn btn-medium btn-rounded btn-trans-white mb-5 brnbeli" name="button">BITPAL (BPL) Smart Contract</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="prog" id="program">
+  <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">PROJECT COMMUNITY DEVELOPMENT</h4><br>
+                    <p>BITPAL (BPL) is an idea developed by a group of Blockchain and Cryptocurrency ecosystem activists in the Binance Community with the aim of supporting the vision and mission of developing a new network protocol, namely Palapa Chain, where the Palapa Chain Ecosystem development planning aims to unite the vision and mission through collaboration with all entities crypto community in one ecosystem.</p>
+                    <p>In this regard, the role of a strong and mutually supportive community is very important because it is the main pillar and foundation for being able to develop new innovations in creating an expansion of the functions of Blockchain Technology in a wider sector.</p>
+                    <p>Based on this analytical framework, BITPAL (BPL) is here to initiate a community of crypto activists who use the Binance Smartchain Protocol (BNB) to synergize with other Crypto Communities to support the Palapa Chain Network Protocol in developing infrastructure and fundamentals that are able to reach all levels of society.</p>
+                    <p>BITPAL (BPL) then prepared an outline of Program Planning which became the Master Plan for the development of the BITPAL Ecosystem, including the following :</p>
+
+                </div>
+            </div>
+            <div class="col-6">
+              <div class="clients-area">
+                <ol  class="sctr lstx">
+                  <li>Encourage Blockchain Enthusiast Enthusiasts in the Binance Smart Chain ecosystem to provide full support to Palapa Chain Developers in developing infrastructure that supports cross-community collaboration through the presence of BITPAL (BPL).</li>
+                  <li>Forming competent, creative and innovative human resources through education and training about how to use blockchain technology in various sectors of life to meet society's needs.</li>
+                  <li>Helping Small and Medium Enterprises to be able to adapt to current developments so that they are able to survive and have high competitiveness.</li>
+                  <li>Creating new breakthroughs in Blockchain Technology that can make it easier for people to understand the direction and development of technology so they can compete in the era of globalization.</li>
+                  <li>Develop Blockchain technology projects that involve the active participation of all community members to encourage the creation of strong, independent and technology-literate small and medium businesses.</li>
+                  <li>Connecting all blockchain and Cryptocurrency Enthusiast in one solid ecosystem chain through the development of the Cross-Network Protocol Program.</li>
+                  <li>Encourage non-profit institutions to use Palapa Chain technology as a technological basis for building good and reliable management standards.</li>
+                  <li>Expanding the community activity model to build a stronger and more solid blockchain technology ecosystem..</li>
+                     
+                </ol>
+              </div>
+            </div>
+            <div class="col-6 text-center">
+              <div class="clients-area">
+                  <img src="images/bnp-pro.png" alt="">
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="tokenomics">
+  <div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-12">
+        <h2 class="heading main-font my-4 titlesmb" style="TEXT-ALIGN: center;">TOKENOMICS</h2>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">SPECIFICATION</h3>
+        </div>
+        <ul class="sctrx">
+          <li>Name: BITPAL</li>
+          <li>Simbol: BPL</li>
+          <li>Decimal: 18</li>
+          <li>Blockchain: Binance Smart Chain</li>
+          <li>Token Standard: BEP-20</li>
+          <li>Type : Utility</li>
+          <li>Mint & Burn: Yes </li>
+          <li>Total Max Supply: 5.000.000 </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">SUPPLY ALLOCATE</h3>
+        </div>
+        <ul class="sctrx">
+          <li>Lock Token           : 3.000.000</li>
+          <li>Community Development:   750.000</li>
+          <li>Project Ecosystem    :   500.000</li>
+          <li>Liquidity Pool       :   250.000</li>
+          <li>Public Sale          :   250.000</li>
+          <li>Marketing & Airdrop  :   150.000</li>
+          <li>Private Sale         :    50.000</li>
+          <li>Team Developer       :    50.000</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row align-items-center diagramnya">
+      <div class="col-12 col-md-6">
+        <div id="chart_wrap"><div id="piechart_3d" ></div></div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">Supply Percentage</h3>
+        </div>
+        <ul class="sctrx aloktkn">
+          <li class="itemx">Lock Token: 60%</li>
+          <li class="kuningx">Community Development: 15%</li>
+          <li class="ungux">Project Ecosystem: 10%</li>
+          <li class="merahx">Liquidity Pool: 5%</li>
+          <li class="ijox">Public Sale: 5%</li>
+          <li class="birux">Marketing & Airdrop: 3%</li>
+          <li class="shampox">Private Sale: 1%</li>
+          <li class="mintx">Team Developer: 1%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="roadmap" id="roadmap">
+  <div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-12">
+        <h2 class="heading main-font my-4 titlesmb" style="TEXT-ALIGN: center;">ROADMAP</h2>
+      </div>
+      <section class="ag-section">
+        <div class="ag-format-container">
+          <div class="js-timeline ag-timeline">
+            <div class="js-timeline_line ag-timeline_line">
+              <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+            </div>
+            <div class="ag-timeline_list">
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">1</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Research and Development</span>✔️</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Exploring further about the Blockchain industry, how society needs to utilize Blockchain technology to facilitate strategy creation in project development through the BITPAL ecosystem.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Formulation & Program Planning strategies</span>✔️</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">2</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Organizing and directing Community pioneers to socialize program stages in the context of community development.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">3</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Community Development</span>✔️</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Recruiting experts to become Community Support so that they can immediately implement and realize BITPAL (BPL) programs that support the development of the Palapa Chain Community
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Launch Official Website</span>✔️</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">4</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Building an information website about BITPAL Tokens (PBL) to be able to provide information to all users so that all information is distributed well.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">5</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Deploy Smart Contract</span>✔️</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Launch of the BITPAL Token (BPL) smart contract to be offered to everyone who supports the program.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Collaboration with Stake Pool Providers.</span>✔️</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">6</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Connect with Blockchain Alliance for implementation of Private Pool Program for Private Sale Token Holders.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">7</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Launch Private Sale</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Make an offer to seek support in the context of developing a Community Project through a BITPAL Ownership (BPL) offer
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing Private Pool Stake Pool for Private Sale Holders.</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">8</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        As a form of appreciation for support in Community Project Development plans by Private Sale Holders, each Holder is entitled to receive Sharing Rewards through the Staking Pool.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">9</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing Launchpad Auto Mint (Public Sale).</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Connect with the Blockchain Alliance to Listing Public Sales with a New System model which is believed to be able to maintain potential Dump Prices on the Market Exchange. On the other hand, it will provide many times the benefits for BITPAL (BPL) Token enthusiasts.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing on a Decentralized Exchange (Add Pool LP)</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">10</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        List the First Initial Price on the Decentralized Exchange at the opening price of USD 1.20,- and then Connect with the Blockchain Alliance to schedule the Deploy Stake Pool and Farming Pool.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">11</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Palapa Chain Partnership Alliance</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Become a Validator in the Palapa Chain Protocol Network for Asset Reserve Needs which will back up further development plans including efforts to help BITPAL (BPL) Price Stabilization to achieve future growth in Asset Value
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing on the Defi Lending & Lending Platform</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">12</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Listing on the Defi Lending and Borrowing Platform for the purpose of how BITPAL (BPL) can be used as an Asset Collateral.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">13</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Decentralized Applications (DAPPS).</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        For the purpose of creating a larger ecosystem, taking into account plans for wider market development, it is necessary to build a Utility Project needed by the Community
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listed on a Centralized Exchange</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">14</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Listing BITPAL (BPL) on the Global Centralized Exchange to make it easier for all users to sell and buy crypto assets that have a bright future.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">15</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing on Coinmarketcap and Coingecko</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        For the purpose of creating a larger ecosystem, taking into account plans to achieve high market liquidity volumes, it is necessary to be listed on Coinmarketcap (CMC) and Coingecko (CG)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+            
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="our-clients" id="testimonials">
+    <div class="container">
+      <div class="row wow fadeInUp" data-wow-duration="1.5s">
+          <div class="col-12 text-center">
+              <div class="heading-area">
+                  <h4 class="heading main-font">PROJECT FOUNDER</h4><br>
+              </div>
+          </div>
+          <div class="col-12 text-center">
+              <div class="itemX">
+                  <div class="testimonialX-box">
+                      <img src="images/founder/Bitpal-labs.png" alt="">
+                      <div class="text1x"><br><br><br>
+                          <p class="testimonial_name">BITPAL BLOCKCHAIN LABS</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="descriptxt">
+                <p>BITPAL is a cryptocurrency Community development innovation to unite Cryptocurrency Community entities spread across various community models by making PALAPA CHAIN ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​as a vehicle for unification. ​​​​​​​​​​​​​​​​​​BITPAL is here to bridge the BNB Smart Chain-based community to be able to synergize to develop a wider ecosystem together with the Palapa Chain Ecosystem.</p>
+              </div>
+          </div>
+      </div>
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">BLOCKCHAIN ALLIANCE</h4><br>
+                </div>
+            </div>
+            <div class="owl-testimonial owl-carousel owl-theme">
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/Founder/zyro-image.png" alt=""><br><br>
+                        <div class="text1">
+                            <p class="testimonial_name">Palapa Technology</p>
+                            <p class="info text-red">Protocol Network Partners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/founder/zyro-image-1.png" alt=""><br><br>
+                        <div class="text1">
+                            <p class="testimonial_name">Dogrowth Club</p>
+                            <p class="info text-red">Blockchain Alliance Connection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/founder/zyro-image-2.png" alt=""><br><br>
+                        <div class="text1">
+                            <p class="testimonial_name">Create Institute</p>
+                            <p class="info text-red">Crypto Education Supporting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/founder/zyro-image-3.png" alt=""><br><br>
+                        <div class="text1">
+                            <p class="testimonial_name">Cryptopreneur Labs</p>
+                            <p class="info text-red">Cryptopreneur Community Supporting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-clients" id="partner">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">OUR ECOSYSTEM</h4><br>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3">
+                </div>
+                <div class="col-12 col-md-3">
+                  <img src="images/BscScan.png" alt="" class="mx-auto d-block" width="100%">
+                </div>
+                <div class="col-12 col-md-3">
+                  <img src="images/dex-cryptopreneur.finance.png" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                  <div class="col-12 col-md-3">
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <img src="images/Polygonscan.png" alt="" class="mx-auto d-block" width="100%">
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <img src="images/plaxswap.png" alt="">
+                  </div>
+                  <div class="col-12 col-md-3">
+                  </div>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="our-clients" id="community">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h6 class="heading main-font">JOIN OUR COMMUNITY</h6><br>
+                </div>
+            </div>
+            <div class="mainsosmed">
+              <a href="#home" target="_blank"><i class="fa fa-telegram"></i></a>
+              <a href="#home" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="#home" target="_blank"><i class="fab fa-tiktok"></i></i></a>
+              <a href="#home" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="#home" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="row align-items-center">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright" id="copyright">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <p>&copy; 2024 BITPAL TECHLABS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- START SCROLL TOP -->
+<div class="go-top"><i class="las la-arrow-up"></i><i class="las la-arrow-up"></i></div>
+<!-- END SCROLL TOP -->
+<script type="text/javascript">
+(function ($) {
+  $(function () {
+
+
+    $(window).on('scroll', function () {
+      fnOnScroll();
+    });
+
+    $(window).on('resize', function () {
+      fnOnResize();
+    });
+
+
+    var agTimeline = $('.js-timeline'),
+      agTimelineLine = $('.js-timeline_line'),
+      agTimelineLineProgress = $('.js-timeline_line-progress'),
+      agTimelinePoint = $('.js-timeline-card_point-box'),
+      agTimelineItem = $('.js-timeline_item'),
+      agOuterHeight = $(window).outerHeight(),
+      agHeight = $(window).height(),
+      f = -1,
+      agFlag = false;
+
+    function fnOnScroll() {
+      agPosY = $(window).scrollTop();
+
+      fnUpdateFrame();
+    }
+
+    function fnOnResize() {
+      agPosY = $(window).scrollTop();
+      agHeight = $(window).height();
+
+      fnUpdateFrame();
+    }
+
+    function fnUpdateWindow() {
+      agFlag = false;
+
+      agTimelineLine.css({
+        top: agTimelineItem.first().find(agTimelinePoint).offset().top - agTimelineItem.first().offset().top,
+        bottom: agTimeline.offset().top + agTimeline.outerHeight() - agTimelineItem.last().find(agTimelinePoint).offset().top
+      });
+
+      f !== agPosY && (f = agPosY, agHeight, fnUpdateProgress());
+    }
+
+    function fnUpdateProgress() {
+      var agTop = agTimelineItem.last().find(agTimelinePoint).offset().top;
+
+      i = agTop + agPosY - $(window).scrollTop();
+      a = agTimelineLineProgress.offset().top + agPosY - $(window).scrollTop();
+      n = agPosY - a + agOuterHeight / 2;
+      i <= agPosY + agOuterHeight / 2 && (n = i - a);
+      agTimelineLineProgress.css({height: n + "px"});
+
+      agTimelineItem.each(function () {
+        var agTop = $(this).find(agTimelinePoint).offset().top;
+
+        (agTop + agPosY - $(window).scrollTop()) < agPosY + .5 * agOuterHeight ? $(this).addClass('js-ag-active') : $(this).removeClass('js-ag-active');
+      })
+    }
+
+    function fnUpdateFrame() {
+      agFlag || requestAnimationFrame(fnUpdateWindow);
+      agFlag = true;
+    }
+ 
+
+  });
+})(jQuery);
+
+</script>
+<!-- JavaScript -->
+<script src="vendor/js/bundle.min.js"></script>
+<!-- Plugin Js -->
+<script src="vendor/js/jquery.appear.js"></script>
+<script src="vendor/js/owl.carousel.min.js"></script>
+<script src="vendor/js/wow.min.js"></script>
+<script src="vendor/js/jquery.fancybox.min.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="vendor/js/contact_us.js"></script>
+<script src="creative-designer/js/circle-progress.min.js"></script>
+<script src="creative-designer/js/script.js"></script>
+
+</body>
+</html>
